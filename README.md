@@ -53,7 +53,7 @@ gemini
 
 **Add MCP server to Gemini:**
 ```bash
-gemini mcp add --transport http note https://f3e28d1f866d.ngrok-free.app/mcp
+gemini mcp add --transport http note <ngrok url>/mcp
 ```
 
 ---
