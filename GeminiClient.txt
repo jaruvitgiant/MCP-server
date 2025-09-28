@@ -1,0 +1,31 @@
+{
+  "mcpServers": {
+
+    "blender": {
+      "command": "cmd",
+      "args": [
+          "/c",
+          "uvx",
+          "blender-mcp"
+      ]
+    },
+
+    "weather": {
+      "httpUrl": "https://34888a2b819d.ngrok-free.app/mcp"
+    },
+
+    "sqlite": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-sqlite",
+        "--db-path",
+        "D:/MCP/temp/testDB.sqlite3"
+      ]
+    }
+  },
+  "security": {
+    "auth": {
+      "selectedType": "oauth-personal"
+    }
+  }
+}

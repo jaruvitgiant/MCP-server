@@ -1,0 +1,5 @@
+fastmcp
+dotenv 
+stytch 
+sqlalchemy
+# fastmcp>=2.12.3
